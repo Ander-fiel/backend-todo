@@ -2,9 +2,9 @@ const { Sequelize } = require("sequelize");
 
 const database = "railway";
 const username = "postgres";
-const password = process.env.DATABASE_PASSWORD;
-const host = "roundhouse.proxy.rlwy.net";
-const port = "56333"
+const password = "apjDZmYDmAKzfwzuYcbnrqrSnXmZlczB";
+const host = "viaduct.proxy.rlwy.net";
+const port = "45702"
 
 const sequelize = new Sequelize(database, username, password, {
 	host: host,
@@ -15,3 +15,4 @@ const sequelize = new Sequelize(database, username, password, {
 module.exports = {
 	sequelize,
 };
+
